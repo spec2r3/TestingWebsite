@@ -1,4 +1,15 @@
+import org.testng.annotations.Test;
+
 public class Main{
-    public static void main(String args[]) {
-    }
-}
+	
+		@Test
+		public void loginTest()
+
+		{
+
+		System.out.println("Login is successful");
+
+		}
+
+		}
+

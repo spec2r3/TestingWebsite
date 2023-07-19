@@ -1,6 +1,7 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
@@ -13,8 +14,7 @@ public class SignUp {
 
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get("https://parabank.parasoft.com/parabank/register.htm");
+        driver.get("https://parabank.parasoft.com/parabank/billpay.htm");
 
         driver.findElement(By.xpath("//*[@id=\"customer.firstName\"]")).sendKeys("test");
         driver.findElement(By.xpath("//*[@id=\"customer.lastName\"]")).sendKeys("test");
@@ -27,8 +27,10 @@ public class SignUp {
         driver.findElement(By.xpath("//*[@id=\"customer.username\"]")).sendKeys("Hunt");
         driver.findElement(By.xpath("//*[@id=\"customer.password\"]")).sendKeys("test1234");
         driver.findElement(By.xpath("//*[@id=\"repeatedPassword\"]")).sendKeys("test1234");
+        
+        Thread.sleep(2500);
         driver.findElement(By.xpath("//*[@id=\"customerForm\"]/table/tbody/tr[13]/td[2]/input")).click();
-
+        
         driver.quit();
 
     }
