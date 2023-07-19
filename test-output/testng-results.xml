@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-19T09:57:19 BST" name="TestingWebsite by groups" finished-at="2023-07-19T09:58:00 BST" duration-ms="40442">
+    <groups>
+      <group name="smoke">
+        <method signature="LinkTest.abouturltest()[pri:2, instance:LinkTest@d6e7bab]" name="abouturltest" class="LinkTest"/>
+        <method signature="LinkTest.adminurltest()[pri:2, instance:LinkTest@d6e7bab]" name="adminurltest" class="LinkTest"/>
+        <method signature="LinkTest.contacturltest()[pri:2, instance:LinkTest@d6e7bab]" name="contacturltest" class="LinkTest"/>
+        <method signature="LinkTest.homeurltest()[pri:2, instance:LinkTest@d6e7bab]" name="homeurltest" class="LinkTest"/>
+        <method signature="LinkTest.servicesurltest()[pri:2, instance:LinkTest@d6e7bab]" name="servicesurltest" class="LinkTest"/>
+        <method signature="LinkTest.siteurltest()[pri:2, instance:LinkTest@d6e7bab]" name="siteurltest" class="LinkTest"/>
+        <method signature="TitleTest.abouttitletest()[pri:2, instance:TitleTest@503d687a]" name="abouttitletest" class="TitleTest"/>
+        <method signature="TitleTest.admintitletest()[pri:2, instance:TitleTest@503d687a]" name="admintitletest" class="TitleTest"/>
+        <method signature="TitleTest.contacttitletest()[pri:2, instance:TitleTest@503d687a]" name="contacttitletest" class="TitleTest"/>
+        <method signature="TitleTest.hometitletest()[pri:2, instance:TitleTest@503d687a]" name="hometitletest" class="TitleTest"/>
+        <method signature="TitleTest.servicestitletest()[pri:2, instance:TitleTest@503d687a]" name="servicestitletest" class="TitleTest"/>
+        <method signature="TitleTest.sitetitletest()[pri:2, instance:TitleTest@503d687a]" name="sitetitletest" class="TitleTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-07-19T09:57:19 BST" name="GRP-smoke" finished-at="2023-07-19T09:58:00 BST" duration-ms="40442">
+      <class name="LinkTest">
+        <test-method signature="abouturltest()[pri:2, instance:LinkTest@d6e7bab]" started-at="2023-07-19T09:57:19 BST" name="abouturltest" finished-at="2023-07-19T09:57:23 BST" duration-ms="4120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abouturltest -->
+        <test-method signature="adminurltest()[pri:2, instance:LinkTest@d6e7bab]" started-at="2023-07-19T09:57:23 BST" name="adminurltest" finished-at="2023-07-19T09:57:26 BST" duration-ms="2709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminurltest -->
+        <test-method signature="contacturltest()[pri:2, instance:LinkTest@d6e7bab]" started-at="2023-07-19T09:57:26 BST" name="contacturltest" finished-at="2023-07-19T09:57:31 BST" duration-ms="4619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contacturltest -->
+        <test-method signature="homeurltest()[pri:2, instance:LinkTest@d6e7bab]" started-at="2023-07-19T09:57:31 BST" name="homeurltest" finished-at="2023-07-19T09:57:34 BST" duration-ms="3154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeurltest -->
+        <test-method signature="servicesurltest()[pri:2, instance:LinkTest@d6e7bab]" started-at="2023-07-19T09:57:34 BST" name="servicesurltest" finished-at="2023-07-19T09:57:37 BST" duration-ms="3152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- servicesurltest -->
+        <test-method signature="siteurltest()[pri:2, instance:LinkTest@d6e7bab]" started-at="2023-07-19T09:57:37 BST" name="siteurltest" finished-at="2023-07-19T09:57:41 BST" duration-ms="3607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siteurltest -->
+      </class> <!-- LinkTest -->
+      <class name="TitleTest">
+        <test-method signature="abouttitletest()[pri:2, instance:TitleTest@503d687a]" started-at="2023-07-19T09:57:41 BST" name="abouttitletest" finished-at="2023-07-19T09:57:44 BST" duration-ms="3611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abouttitletest -->
+        <test-method signature="admintitletest()[pri:2, instance:TitleTest@503d687a]" started-at="2023-07-19T09:57:44 BST" name="admintitletest" finished-at="2023-07-19T09:57:47 BST" duration-ms="3253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- admintitletest -->
+        <test-method signature="contacttitletest()[pri:2, instance:TitleTest@503d687a]" started-at="2023-07-19T09:57:47 BST" name="contacttitletest" finished-at="2023-07-19T09:57:51 BST" duration-ms="3410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contacttitletest -->
+        <test-method signature="hometitletest()[pri:2, instance:TitleTest@503d687a]" started-at="2023-07-19T09:57:51 BST" name="hometitletest" finished-at="2023-07-19T09:57:54 BST" duration-ms="3503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hometitletest -->
+        <test-method signature="servicestitletest()[pri:2, instance:TitleTest@503d687a]" started-at="2023-07-19T09:57:54 BST" name="servicestitletest" finished-at="2023-07-19T09:57:57 BST" duration-ms="3171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- servicestitletest -->
+        <test-method signature="sitetitletest()[pri:2, instance:TitleTest@503d687a]" started-at="2023-07-19T09:57:57 BST" name="sitetitletest" finished-at="2023-07-19T09:58:00 BST" duration-ms="2097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sitetitletest -->
+      </class> <!-- TitleTest -->
+    </test> <!-- GRP-smoke -->
+  </suite> <!-- TestingWebsite by groups -->
+</testng-results>
